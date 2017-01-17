@@ -1,0 +1,4 @@
+/.idea
+/node_modules
+/worker-bundle.js
+/not-worker-bundle.js

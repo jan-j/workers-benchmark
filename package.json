@@ -1,0 +1,11 @@
+{
+  "name": "workers-benchmark",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "webpack worker.js worker-bundle.js && webpack not-worker.js not-worker-bundle.js"
+  },
+  "dependencies": {
+    "promise-worker-transferable": "^1.0.4",
+    "webpack": "^1.14.0"
+  }
+}
